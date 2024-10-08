@@ -84,12 +84,12 @@ This project aims to classify articles into one of 26 predefined IAB categories 
 ## Inference
 
 ```python
-model_name = "LakshitKava/Fibe_IAB_DB_v2"
+model_name = "LakshitKava/FibeVibeToHack2.0-IAB-DistillBert"
 tokenizer_name = "distilbert-base-uncased"
 
 from transformers import DistilBertForSequenceClassification, DistilBertTokenizerFast
-model = DistilBertForSequenceClassification.from_pretrained("LakshitKava/FibeVibeToHack2.0-IAB-DistillBert")
-tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased", num_labels=26)
+model = DistilBertForSequenceClassification.from_pretrained(model_name)
+tokenizer = DistilBertTokenizerFast.from_pretrained(tokenizer_name, num_labels=26)
 
 
 class NewsDataset(torch.utils.data.Dataset):
