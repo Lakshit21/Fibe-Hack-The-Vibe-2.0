@@ -26,7 +26,7 @@ This project aims to classify articles into one of 26 predefined IAB categories 
    - **Memory Management**:
      - Due to the large dataset size (over 690,000 rows), a custom `iterative DataLoader` was implemented using PyTorch and Hugging Face's `datasets` library to handle memory constraints effectively.
    - **Training Hardware**:
-     - Model was trained on **GPU T4 x2** for almost 1 hour on Kaggle to expedite the process.
+     - Model was trained on **GPU T4 x2** for almost 10 hour on Kaggle to expedite the process.
    - **Model**: {https://huggingface.co/LakshitKava/FibeVibeToHack2.0-IAB-DistillBert}
 
 ## Training Details
