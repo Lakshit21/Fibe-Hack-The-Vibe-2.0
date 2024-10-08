@@ -185,3 +185,6 @@ The DistilBERT model showed significant improvement over traditional Naive Bayes
 ### Acknowledgements
 Thanks to Fibe for this amazing opportunity and HackerEarth for amazing platform.
 Thanks to the Hugging Face library for providing easy access to pre-trained models like DistilBERT and to the Interactive Advertising Bureau (IAB) for the dataset.
+
+### Current Leaderboard
+![current leaderboard](./assets/leaderboard-8oct2024.png)
